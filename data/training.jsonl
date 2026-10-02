@@ -1,0 +1,138 @@
+{"kind":"rule-text","text":"Customers and vendors hear from us, not from Lena. Clients call Lena's mobile. Without a named successor and a made introduction, relationships walk out the door with her."}
+{"kind":"rule-text","text":"PREMISE_COM_01_SUCCESSOR_NAMED: A successor contact is named for the relationship."}
+{"kind":"rule-text","text":"PREMISE_COM_02_INTRO_MADE: The introduction to the successor must already be made."}
+{"kind":"rule-text","text":"PREMISE_COM_03_RESPONSE_PROMISE: The shop promises a reply within one to two days."}
+{"kind":"rule-text","text":"PREMISE_COM_04_SENDER_SIG: The handover note needs the sender signature."}
+{"kind":"rule-text","text":"Who we take on as a client, and who says yes. Taking on a new client needs identity, credit and sanctions checks plus a partner's yes — but the paper checklist is silent on re-engaging a client it once rejected."}
+{"kind":"rule-text","text":"PREMISE_ONB_01_CLIENT_NAMED: Intake names the prospective client."}
+{"kind":"rule-text","text":"PREMISE_ONB_02_IDENTITY_VERIFIED: The client's identity must verify before acceptance."}
+{"kind":"rule-text","text":"PREMISE_ONB_03_CREDIT_PASSED: The client's credit check must pass before acceptance."}
+{"kind":"rule-text","text":"PREMISE_ONB_04_SANCTIONS_CLEAR: The client must clear the sanctions-list screen before acceptance."}
+{"kind":"rule-text","text":"PREMISE_ONB_05_PARTNER_APPROVAL: Acceptance requires an approving partner's signature."}
+{"kind":"rule-text","text":"PREMISE_ONB_06_NO_PRIOR_REJECTION: A client with a rejection on file cannot be taken on as a fresh intake; re-engagement needs owner review."}
+{"kind":"rule-text","text":"PREMISE_ONB_07_ONBOARDING_SIGNOFF: Account creation requires the onboarding lead's signature over the accepted state."}
+{"kind":"rule-text","text":"What keeps full speed and what waits for the owner. Routine work must fly while big commitments wait - the paper process either freezes everything or nothing."}
+{"kind":"rule-text","text":"PREMISE_THAW_00_VALID_DISCOUNT: The discount is a number at or above zero."}
+{"kind":"rule-text","text":"PREMISE_THAW_01_CLASS_LISTED: The decision states whether it is routine or frozen-class work."}
+{"kind":"rule-text","text":"PREMISE_THAW_02_FROZEN_NEEDS_OWNER: Frozen-class work needs the owner before anyone acts."}
+{"kind":"rule-text","text":"PREMISE_THAW_03_DISCOUNT_WITHIN_LINE: Discounts above 10 percent need the owner."}
+{"kind":"rule-text","text":"PREMISE_THAW_04_EXECUTOR_SIG: Doing the work needs the executor signature over the cleared state."}
+{"kind":"rule-text","text":"Who can spend, and who signs above $10,000. A department wants to pay a vendor: small amounts need two signatures, anything above $10,000 needs the owner's override — and the paper process stays silent on what happens when payout gets signed anyway."}
+{"kind":"rule-text","text":"PREMISE_FIN_01_DEPT_HEAD_SIG: Proposal requires a department-head signature plus a positive amount and a vendor name."}
+{"kind":"rule-text","text":"PREMISE_FIN_04_CURRENCY_SUPPORTED: Currency must be explicitly supported (USD). Uncovered currencies are refused."}
+{"kind":"rule-text","text":"PREMISE_FIN_03_VENDOR_ACTIVE: Vendor must verify as active against the approved vendor list."}
+{"kind":"rule-text","text":"PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED: Amounts above 10000 require an explicit founder/CEO override signature."}
+{"kind":"rule-text","text":"PREMISE_FIN_05_FINANCE_SIG: Payout requires a finance-officer signature over the approved state."}
+{"kind":"rule-text","text":"Who approves an offer, and when a renewal needs a fresh yes. Offers need the hiring manager plus a director above $150,000 — but the paper process only covers first hires and stays silent on contractor renewals."}
+{"kind":"rule-text","text":"PREMISE_HIRE_00_POSITIVE_COMP: The offer states a positive compensation figure."}
+{"kind":"rule-text","text":"PREMISE_HIRE_01_CANDIDATE_NAMED: The offer names the candidate."}
+{"kind":"rule-text","text":"PREMISE_HIRE_02_ROLE_LISTED: The role type must be explicitly listed (employee or contractor)."}
+{"kind":"rule-text","text":"PREMISE_HIRE_03_MANAGER_APPROVAL: Every offer requires the hiring manager's signature."}
+{"kind":"rule-text","text":"PREMISE_HIRE_04_OFFER_DATE_VALID: The offer date must fall inside the open hiring window."}
+{"kind":"rule-text","text":"PREMISE_HIRE_05_OVER_THRESHOLD_NEEDS_DIRECTOR: Offers above $150,000 require an explicit director override signature."}
+{"kind":"rule-text","text":"PREMISE_HIRE_06_RENEWAL_NEEDS_FRESH_APPROVAL: A contractor renewal is not a first hire: it requires a fresh re-approval signature."}
+{"kind":"rule-text","text":"PREMISE_HIRE_07_HR_EXECUTION: Issuing the offer requires the HR executor's signature over the approved state."}
+{"kind":"rule-text","text":"Core processes written down and current. Half the shop know-how lives in Lena's head - unsigned or stale write-ups block the work that depends on them."}
+{"kind":"rule-text","text":"PREMISE_DOC_01_PROCESS_NAMED: The review names the core process."}
+{"kind":"rule-text","text":"PREMISE_DOC_02_DOCUMENTED: The process must be written down."}
+{"kind":"rule-text","text":"PREMISE_DOC_03_REVIEW_CURRENT: The write-up must have been reviewed inside the current year."}
+{"kind":"rule-text","text":"PREMISE_DOC_04_OWNER_SIG: The review needs the process owner signature."}
+{"kind":"rule-text","text":"Who owns each seat when Lena cannot be reached. When Lena cannot be reached, nobody knows who may decide what - speed dies while everyone waits for her."}
+{"kind":"rule-text","text":"PREMISE_SEAT_00_POSITIVE_AMOUNT: The decision states a positive amount."}
+{"kind":"rule-text","text":"PREMISE_SEAT_01_ABSENCE_DECLARED: The absence is declared at an explicit level."}
+{"kind":"rule-text","text":"PREMISE_SEAT_02_COVER_NAMED: A covering owner is named for the seat."}
+{"kind":"rule-text","text":"PREMISE_SEAT_03_COVER_ACCEPTED: The covering owner accepts the seat in writing."}
+{"kind":"rule-text","text":"PREMISE_SEAT_04_WITHIN_ELEVATED_LIMIT: Decisions above the $10,000 elevated limit need the owner."}
+{"kind":"rule-text","text":"PREMISE_SEAT_05_EXECUTOR_SIG: Carrying out the decision needs the executor signature over the covered state."}
+{"kind":"rule-text","text":"Who gets paid, and checking the vendor is still active at payout. Paying a vendor needs an approval plus a payer — but the paper process checks the active list once at approval and stays silent when the vendor is deactivated before payout."}
+{"kind":"rule-text","text":"PREMISE_PAY_01_VENDOR_NAMED: The payment names the vendor."}
+{"kind":"rule-text","text":"PREMISE_PAY_02_POSITIVE_AMOUNT: The payment states a positive amount."}
+{"kind":"rule-text","text":"PREMISE_PAY_03_CURRENCY_SUPPORTED: Currency must be explicitly supported (USD)."}
+{"kind":"rule-text","text":"PREMISE_PAY_04_VENDOR_ACTIVE: The vendor must still verify as active at payout time, even when the approval signature is valid."}
+{"kind":"rule-text","text":"PREMISE_PAY_05_APPROVAL: Payment requires a purchase approver's signature."}
+{"kind":"rule-text","text":"PREMISE_PAY_06_OVER_THRESHOLD_NEEDS_CONTROLLER: Payments above $25,000 require an explicit controller override signature."}
+{"kind":"rule-text","text":"PREMISE_PAY_07_PAYER_EXECUTION: Releasing the payment requires the payer's signature over the approved state."}
+{"kind":"rule-text","text":"The weekly numbers that must stay healthy. The week Lena retires, cash sits at 6 weeks of runway and nobody is obliged to tell anyone - red numbers nobody owns."}
+{"kind":"rule-text","text":"PREMISE_NUM_01_CASH_FLOOR: Cash runway must hold at 8 weeks or more."}
+{"kind":"rule-text","text":"PREMISE_NUM_02_MARGIN_FLOOR: Gross margin must hold at 15 percent or more."}
+{"kind":"rule-text","text":"PREMISE_NUM_03_NO_SUSTAINED_RED: Red numbers two weeks running force owner review."}
+{"kind":"rule-text","text":"PREMISE_NUM_04_REVIEWER_SIGNED: The weekly review needs the numbers reviewer signature."}
+{"kind":"derivation","text":"Evaluating action 'EXP-01' by actor 'harvest' under 'SOP-FIN-01' rule version 'sop_fin_01_v1.0.0' (hash sha256:291190d1e4a75c8ca10b607267693d17d591a599402690520e2803598b7c74c2)."}
+{"kind":"derivation","text":"[1/5] PREMISE_FIN_01_DEPT_HEAD_SIG satisfied: proposal complete: department-head signature present with a positive amount and a vendor name."}
+{"kind":"derivation","text":"[2/5] PREMISE_FIN_04_CURRENCY_SUPPORTED satisfied: currency 'USD' is explicitly supported."}
+{"kind":"derivation","text":"[3/5] PREMISE_FIN_03_VENDOR_ACTIVE satisfied: vendor 'Northwind Traders' verified active."}
+{"kind":"derivation","text":"[4/5] PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED satisfied: amount=4200 is within the 10000 threshold (no override needed)."}
+{"kind":"derivation","text":"[5/5] PREMISE_FIN_05_FINANCE_SIG satisfied: 'finance officer' signature present."}
+{"kind":"derivation","text":"AUTHORIZED: all premises satisfied under rule version 'sop_fin_01_v1.0.0'."}
+{"kind":"derivation","text":"Evaluating action 'EXP-02' by actor 'harvest' under 'SOP-FIN-01' rule version 'sop_fin_01_v1.0.0' (hash sha256:291190d1e4a75c8ca10b607267693d17d591a599402690520e2803598b7c74c2)."}
+{"kind":"derivation","text":"[1/5] PREMISE_FIN_01_DEPT_HEAD_SIG satisfied: proposal complete: department-head signature present with a positive amount and a vendor name."}
+{"kind":"derivation","text":"[2/5] PREMISE_FIN_04_CURRENCY_SUPPORTED satisfied: currency 'USD' is explicitly supported."}
+{"kind":"derivation","text":"[3/5] PREMISE_FIN_03_VENDOR_ACTIVE satisfied: vendor 'Acme Supplies' verified active."}
+{"kind":"derivation","text":"[4/5] Checking PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED (amount-over-threshold-needs-override): amount=25000 exceeds 10000 without override."}
+{"kind":"derivation","text":"ESCALATED at PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED: Signed-but-unapproved conflict: the 'Finance officer' signature is present while PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED is unsatisfied (amount 25000 exceeds the 10000 threshold and no 'founder/CEO' override signature was provided.). Requires owner review before execution."}
+{"kind":"refusal","text":"PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED: Signed-but-unapproved conflict: the 'Finance officer' signature is present while PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED is unsatisfied (amount 25000 exceeds the 10000 threshold and no 'founder/CEO' override signature was provided.). Requires owner review before execution."}
+{"kind":"derivation","text":"Evaluating action 'ONB-01' by actor 'harvest' under 'SOP-ONB-01' rule version 'sop_onb_01_v1.0.0' (hash sha256:29e551c59b0a9cfab3b17b2f5eb42dd2692f0b4ff4c5f60b70bc9b906d99fe33)."}
+{"kind":"derivation","text":"[1/7] PREMISE_ONB_01_CLIENT_NAMED satisfied: client_name='Blue Lantern Co.' provided."}
+{"kind":"derivation","text":"[2/7] PREMISE_ONB_02_IDENTITY_VERIFIED satisfied: identity_status='verified' is explicitly allowed."}
+{"kind":"derivation","text":"[3/7] PREMISE_ONB_03_CREDIT_PASSED satisfied: credit_status='pass' is explicitly allowed."}
+{"kind":"derivation","text":"[4/7] PREMISE_ONB_04_SANCTIONS_CLEAR satisfied: sanctions_status='clear' is explicitly allowed."}
+{"kind":"derivation","text":"[5/7] PREMISE_ONB_05_PARTNER_APPROVAL satisfied: 'approving partner' signature present."}
+{"kind":"derivation","text":"[6/7] PREMISE_ONB_06_NO_PRIOR_REJECTION satisfied: prior_rejection='false' is explicitly allowed."}
+{"kind":"derivation","text":"[7/7] PREMISE_ONB_07_ONBOARDING_SIGNOFF satisfied: 'onboarding lead' signature present."}
+{"kind":"derivation","text":"AUTHORIZED: all premises satisfied under rule version 'sop_onb_01_v1.0.0'."}
+{"kind":"derivation","text":"Evaluating action 'ONB-02' by actor 'harvest' under 'SOP-ONB-01' rule version 'sop_onb_01_v1.0.0' (hash sha256:29e551c59b0a9cfab3b17b2f5eb42dd2692f0b4ff4c5f60b70bc9b906d99fe33)."}
+{"kind":"derivation","text":"[1/7] PREMISE_ONB_01_CLIENT_NAMED satisfied: client_name='Harbor & Grey Ltd' provided."}
+{"kind":"derivation","text":"[2/7] PREMISE_ONB_02_IDENTITY_VERIFIED satisfied: identity_status='verified' is explicitly allowed."}
+{"kind":"derivation","text":"[3/7] PREMISE_ONB_03_CREDIT_PASSED satisfied: credit_status='pass' is explicitly allowed."}
+{"kind":"derivation","text":"[4/7] PREMISE_ONB_04_SANCTIONS_CLEAR satisfied: sanctions_status='clear' is explicitly allowed."}
+{"kind":"derivation","text":"[5/7] PREMISE_ONB_05_PARTNER_APPROVAL satisfied: 'approving partner' signature present."}
+{"kind":"derivation","text":"[6/7] Checking PREMISE_ONB_06_NO_PRIOR_REJECTION (value-in-allowlist): prior_rejection='true' is not in the allowlist."}
+{"kind":"derivation","text":"ESCALATED at PREMISE_ONB_06_NO_PRIOR_REJECTION: Signed-but-unapproved conflict: the 'Approving partner' signature is present while PREMISE_ONB_06_NO_PRIOR_REJECTION is unsatisfied ('prior_rejection' value 'true' is not covered by any live rule (allowed: false). Uncovered input defaults to explicit refusal; silence is never consent.). Requires owner review before execution."}
+{"kind":"refusal","text":"PREMISE_ONB_06_NO_PRIOR_REJECTION: Signed-but-unapproved conflict: the 'Approving partner' signature is present while PREMISE_ONB_06_NO_PRIOR_REJECTION is unsatisfied ('prior_rejection' value 'true' is not covered by any live rule (allowed: false). Uncovered input defaults to explicit refusal; silence is never consent.). Requires owner review before execution."}
+{"kind":"derivation","text":"Evaluating action 'HIRE-01' by actor 'harvest' under 'SOP-HIRE-01' rule version 'sop_hire_01_v1.0.0' (hash sha256:f254170e387bf26a9164d41f5d8cae9ab47789d27bb3fa1ecc0c053794d41e30)."}
+{"kind":"derivation","text":"[1/8] PREMISE_HIRE_00_POSITIVE_COMP satisfied: compensation=60000 is a positive amount."}
+{"kind":"derivation","text":"[2/8] PREMISE_HIRE_01_CANDIDATE_NAMED satisfied: candidate_name='Sam Reyes' provided."}
+{"kind":"derivation","text":"[3/8] PREMISE_HIRE_02_ROLE_LISTED satisfied: role_type='contractor' is explicitly allowed."}
+{"kind":"derivation","text":"[4/8] PREMISE_HIRE_03_MANAGER_APPROVAL satisfied: 'hiring manager' signature present."}
+{"kind":"derivation","text":"[5/8] PREMISE_HIRE_04_OFFER_DATE_VALID satisfied: offer_date=2026-06-15 is within the validity window."}
+{"kind":"derivation","text":"[6/8] PREMISE_HIRE_05_OVER_THRESHOLD_NEEDS_DIRECTOR satisfied: compensation=60000 is within the 150000 threshold (no override needed)."}
+{"kind":"derivation","text":"[7/8] Checking PREMISE_HIRE_06_RENEWAL_NEEDS_FRESH_APPROVAL (signature-required-when): 'is_renewal' applies and 'renewal approver' signature is missing."}
+{"kind":"derivation","text":"REFUSED at PREMISE_HIRE_06_RENEWAL_NEEDS_FRESH_APPROVAL: 'is_renewal' applies and the required 'renewal approver' signature was not provided."}
+{"kind":"refusal","text":"PREMISE_HIRE_06_RENEWAL_NEEDS_FRESH_APPROVAL: 'is_renewal' applies and the required 'renewal approver' signature was not provided."}
+{"kind":"refusal","text":"Follow-up ISS-HIRE-2026-001: Policy refusal — Who approves an offer, and when a renewal needs a fresh yes [SOP-HIRE-01] — PREMISE_HIRE_06_RENEWAL_NEEDS_FRESH_APPROVAL"}
+{"kind":"derivation","text":"Evaluating action 'PAY-01' by actor 'harvest' under 'SOP-PAY-01' rule version 'sop_pay_01_v1.0.0' (hash sha256:46277abae58c685e7e9fc8f8904c7919d17e3b6bf7925c55284ffb197060970f)."}
+{"kind":"derivation","text":"[1/7] PREMISE_PAY_01_VENDOR_NAMED satisfied: vendor='Initech LLC' provided."}
+{"kind":"derivation","text":"[2/7] PREMISE_PAY_02_POSITIVE_AMOUNT satisfied: amount=8000 is a positive amount."}
+{"kind":"derivation","text":"[3/7] PREMISE_PAY_03_CURRENCY_SUPPORTED satisfied: currency 'USD' is explicitly supported."}
+{"kind":"derivation","text":"[4/7] Checking PREMISE_PAY_04_VENDOR_ACTIVE (vendor-active-against-list): vendor 'Initech LLC' is not on the active list."}
+{"kind":"derivation","text":"ESCALATED at PREMISE_PAY_04_VENDOR_ACTIVE: Signed-but-unapproved conflict: the 'Payer' signature is present while PREMISE_PAY_04_VENDOR_ACTIVE is unsatisfied (Vendor 'Initech LLC' failed active-vendor verification. Only explicitly listed active vendors may proceed.). Requires owner review before execution."}
+{"kind":"refusal","text":"PREMISE_PAY_04_VENDOR_ACTIVE: Signed-but-unapproved conflict: the 'Payer' signature is present while PREMISE_PAY_04_VENDOR_ACTIVE is unsatisfied (Vendor 'Initech LLC' failed active-vendor verification. Only explicitly listed active vendors may proceed.). Requires owner review before execution."}
+{"kind":"derivation","text":"Evaluating action 'EXP-03' by actor 'harvest' under 'SOP-FIN-01' rule version 'sop_fin_01_v1.0.0' (hash sha256:291190d1e4a75c8ca10b607267693d17d591a599402690520e2803598b7c74c2)."}
+{"kind":"derivation","text":"[1/5] PREMISE_FIN_01_DEPT_HEAD_SIG satisfied: proposal complete: department-head signature present with a positive amount and a vendor name."}
+{"kind":"derivation","text":"[2/5] PREMISE_FIN_04_CURRENCY_SUPPORTED satisfied: currency 'USD' is explicitly supported."}
+{"kind":"derivation","text":"[3/5] PREMISE_FIN_03_VENDOR_ACTIVE satisfied: vendor 'Initech LLC' verified active."}
+{"kind":"derivation","text":"[4/5] PREMISE_FIN_02_CEO_OVERRIDE_REQUIRED satisfied: amount=3200 is within the 10000 threshold (no override needed)."}
+{"kind":"derivation","text":"[5/5] Checking PREMISE_FIN_05_FINANCE_SIG (signature-present): 'finance officer' signature missing."}
+{"kind":"derivation","text":"REFUSED at PREMISE_FIN_05_FINANCE_SIG: Required signer 'finance officer' has not signed."}
+{"kind":"refusal","text":"PREMISE_FIN_05_FINANCE_SIG: Required signer 'finance officer' has not signed."}
+{"kind":"refusal","text":"Follow-up ISS-FIN-2026-002: Policy refusal — Who can spend, and who signs above $10,000 [SOP-FIN-01] — PREMISE_FIN_05_FINANCE_SIG"}
+{"kind":"derivation","text":"Evaluating action 'HIRE-02' by actor 'harvest' under 'SOP-HIRE-01' rule version 'sop_hire_01_v1.0.0' (hash sha256:f254170e387bf26a9164d41f5d8cae9ab47789d27bb3fa1ecc0c053794d41e30)."}
+{"kind":"derivation","text":"[1/8] PREMISE_HIRE_00_POSITIVE_COMP satisfied: compensation=95000 is a positive amount."}
+{"kind":"derivation","text":"[2/8] PREMISE_HIRE_01_CANDIDATE_NAMED satisfied: candidate_name='Jordan Lee' provided."}
+{"kind":"derivation","text":"[3/8] PREMISE_HIRE_02_ROLE_LISTED satisfied: role_type='employee' is explicitly allowed."}
+{"kind":"derivation","text":"[4/8] PREMISE_HIRE_03_MANAGER_APPROVAL satisfied: 'hiring manager' signature present."}
+{"kind":"derivation","text":"[5/8] PREMISE_HIRE_04_OFFER_DATE_VALID satisfied: offer_date=2026-06-15 is within the validity window."}
+{"kind":"derivation","text":"[6/8] PREMISE_HIRE_05_OVER_THRESHOLD_NEEDS_DIRECTOR satisfied: compensation=95000 is within the 150000 threshold (no override needed)."}
+{"kind":"derivation","text":"[7/8] PREMISE_HIRE_06_RENEWAL_NEEDS_FRESH_APPROVAL satisfied: condition 'is_renewal' does not require 'renewal approver' here."}
+{"kind":"derivation","text":"[8/8] PREMISE_HIRE_07_HR_EXECUTION satisfied: 'HR executor' signature present."}
+{"kind":"derivation","text":"AUTHORIZED: all premises satisfied under rule version 'sop_hire_01_v1.0.0'."}
+{"kind":"debt-op","text":"context anchored: intent, constraint, premise recorded with provenance"}
+{"kind":"debt-op","text":"constraint spend-line went stale: the limit changed without re-anchoring"}
+{"kind":"debt-op","text":"debt score 0.333 with 1 stale entries: evaluation must refuse until repaid"}
+{"kind":"debt-op","text":"re-anchored spend-line: debt score 0.000, evaluation may proceed"}
+{"kind":"debt-op","text":"intent week-24-close: close the books for week 24 [live]"}
+{"kind":"debt-op","text":"constraint spend-line: spend limit is $10,000 unless the owner overrides [live]"}
+{"kind":"debt-op","text":"premise fin-sig: the finance officer signed the payout batch [live]"}
+{"kind":"debt-op","text":"constraint spend-line: spend limit is $10,000 unless the owner overrides [stale]"}
+{"kind":"debt-op","text":"reanchor spend-line: re-anchored: spend limit is $10,000 unless the owner overrides [live]"}
+{"kind":"debt-op","text":"constraint spend-line: spend limit is $10,000 unless the owner overrides [live]"}

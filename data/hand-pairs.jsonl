@@ -1,0 +1,78 @@
+{"evidence": ["amount $7,500", "threshold $10,000", "dept-head signed", "finance signed", "vendor Acme Supplies active"], "text": "The $7,500 payout is approved: inside the spend authority with both signatures present and an active vendor.", "licensed": true}
+{"evidence": ["amount $7,500", "threshold $10,000"], "text": "The $7,500 payout is approved and the vendor relationship is excellent.", "licensed": false}
+{"evidence": ["amount $25,000", "threshold $10,000", "no override signature"], "text": "The $25,000 payout is refused: above the spend authority with no owner override. Missing premise: owner approval.", "licensed": true}
+{"evidence": ["amount $25,000", "threshold $10,000", "no override signature"], "text": "The $25,000 payout is approved because the department needs it urgently.", "licensed": false}
+{"evidence": ["amount $25,000", "threshold $10,000", "no override signature", "finance signed"], "text": "Signed but unapproved: finance signed a payout the policy never approved. Escalated to the owner with both sides shown.", "licensed": true}
+{"evidence": ["amount $25,000", "finance signed"], "text": "Finance signed, so the payout is approved.", "licensed": false}
+{"evidence": ["amount $3,200", "dept-head signed", "finance missing"], "text": "The $3,200 payout is refused: the finance signature is missing. A missing signature is never treated as a yes.", "licensed": true}
+{"evidence": ["amount $3,200", "small amount"], "text": "The amount is small, so the payout proceeds without finance.", "licensed": false}
+{"evidence": ["currency EUR", "supported: USD"], "text": "The EUR payout is refused: the currency is not covered by any live rule. Silence is never consent.", "licensed": true}
+{"evidence": ["currency EUR"], "text": "The EUR payout is approved; currency details can be sorted out later.", "licensed": false}
+{"evidence": ["vendor Initech LLC", "active list: Acme, Globex, Northwind"], "text": "The vendor failed active-vendor verification. Only explicitly listed vendors may be paid.", "licensed": true}
+{"evidence": ["vendor Initech LLC"], "text": "Initech is probably fine; pay them.", "licensed": false}
+{"evidence": ["vendor Initech LLC", "active list: Acme, Globex, Northwind", "payer signed"], "text": "Signed but unapproved: the payer signed for a vendor the list no longer carries. Escalated with the stale approval shown.", "licensed": true}
+{"evidence": ["client Blue Lantern", "identity verified", "credit pass", "sanctions clear", "no prior rejection", "partner approved", "onboarding signed"], "text": "The client is accepted: every check is green and both signatures are present.", "licensed": true}
+{"evidence": ["client Blue Lantern", "identity verified"], "text": "The client is accepted; the remaining checks are likely fine.", "licensed": false}
+{"evidence": ["client Harbor Grey", "prior rejection true", "partner approved"], "text": "Re-engagement flagged: a rejection is on file, so this is not a fresh intake. Owner review required.", "licensed": true}
+{"evidence": ["client Harbor Grey", "partner approved"], "text": "Partner approved, so onboard them as a new client.", "licensed": false}
+{"evidence": ["credit fail"], "text": "The client is refused: the credit check did not pass.", "licensed": true}
+{"evidence": ["credit pending"], "text": "Credit is pending, but the client seems trustworthy, so accept.", "licensed": false}
+{"evidence": ["candidate Jordan Lee", "employee", "compensation $95,000", "line $150,000", "offer date inside window", "manager signed", "HR signed"], "text": "The offer is approved: inside the offer line, date valid, both signatures present.", "licensed": true}
+{"evidence": ["candidate Jordan Lee", "employee"], "text": "Jordan seems great; issue the offer.", "licensed": false}
+{"evidence": ["contractor renewal", "no re-approval signature", "manager signed", "HR signed"], "text": "The renewal is refused: a renewal is not a first hire and the fresh re-approval is missing.", "licensed": true}
+{"evidence": ["contractor renewal", "manager signed"], "text": "They already work here, so renew without further approval.", "licensed": false}
+{"evidence": ["compensation $180,000", "line $150,000", "no director signature"], "text": "The offer is refused: above the offer line with no director override.", "licensed": true}
+{"evidence": ["compensation $180,000", "director signed"], "text": "The offer is approved: above the line with the director override present.", "licensed": true}
+{"evidence": ["offer date outside hiring window"], "text": "The offer is refused: the date falls outside the open hiring window.", "licensed": true}
+{"evidence": ["offer date outside hiring window", "manager keen"], "text": "The manager is keen, so backdate the offer into the window.", "licensed": false}
+{"evidence": ["context: spend-line marked stale", "debt score above zero"], "text": "Evaluation refused: the spend-line constraint is stale. Re-anchor it, then proceed.", "licensed": true}
+{"evidence": ["context: spend-line marked stale"], "text": "Proceed anyway; the stale note is probably outdated.", "licensed": false}
+{"evidence": ["context: duplicate intake rows for Blue Lantern"], "text": "Evaluation refused: duplicated intake rows must be pruned to one live row first.", "licensed": true}
+{"evidence": ["context: duplicate rows"], "text": "Duplicates do not matter; evaluate on the first one.", "licensed": false}
+{"evidence": ["context: missing vendor verification", "debt score above zero"], "text": "Evaluation refused: vendor verification is missing from context. Supply it, then proceed.", "licensed": true}
+{"evidence": ["re-anchored spend-line", "debt score zero"], "text": "Debt repaid: the constraint is re-anchored and the score is zero. Evaluation may proceed.", "licensed": true}
+{"evidence": ["pruned duplicate rows", "debt score zero"], "text": "Debt repaid: duplicates retired to history. Evaluation may proceed.", "licensed": true}
+{"evidence": ["threshold $10,000", "amount $12,000", "override signed"], "text": "The payout is approved: above the line with the owner override present.", "licensed": true}
+{"evidence": ["threshold $10,000", "amount $12,000", "finance signed", "no override"], "text": "Signed but unapproved: finance signed above the line with no override. Escalated, not paid.", "licensed": true}
+{"evidence": ["ledger: 14 entries chained", "chain verifies"], "text": "The record verifies: 14 entries, each fingerprint linking to the one before.", "licensed": true}
+{"evidence": ["ledger: 14 entries"], "text": "The record verifies: nothing was ever tampered with.", "licensed": false}
+{"evidence": ["edited policy file", "stored hash differs from recomputed hash"], "text": "Refused at load: the stored fingerprint does not match the recomputed content. Only a fresh owner signature changes the policy.", "licensed": true}
+{"evidence": ["edited policy file"], "text": "The edits look harmless, so load the policy.", "licensed": false}
+{"evidence": ["override signed after escalation"], "text": "Released by owner override: the named gap is closed and the release itself is written into the record.", "licensed": true}
+{"evidence": ["escalation open", "no override"], "text": "The case stays frozen. No quiet work-arounds exist.", "licensed": true}
+{"evidence": ["escalation open", "no override"], "text": "Route around the escalation through a different policy.", "licensed": false}
+{"evidence": ["proposed vendor unknown", "no list contains it"], "text": "The vendor is uncovered: no live rule names it. Refused and named rather than guessed.", "licensed": true}
+{"evidence": ["evidence supports A and B"], "text": "Therefore C, which follows from neither.", "licensed": false}
+{"evidence": ["evidence supports A and B"], "text": "Therefore A holds here; B is not established by this evidence.", "licensed": true}
+{"evidence": ["all premises satisfied under rule version sop_fin_01_v1.0.0"], "text": "AUTHORIZED: all premises satisfied under the signed rule version.", "licensed": true}
+{"evidence": ["three of five premises checked"], "text": "AUTHORIZED: close enough to proceed.", "licensed": false}
+{"evidence": ["amount field missing"], "text": "Refused: a numeric amount is required and none was provided.", "licensed": true}
+{"evidence": ["amount field missing", "vendor known"], "text": "The vendor is known, so approve a reasonable amount.", "licensed": false}
+{"evidence": ["sanctions hit"], "text": "The client is refused: the sanctions screen did not clear.", "licensed": true}
+{"evidence": ["sanctions unchecked"], "text": "Sanctions are unchecked, but the client is waiting, so accept.", "licensed": false}
+{"evidence": ["identity unverified"], "text": "The client is refused: identity is not verified.", "licensed": true}
+{"evidence": ["role employee", "compensation $0"], "text": "The offer is refused: compensation must be a positive figure.", "licensed": true}
+{"evidence": ["role employee", "compensation $0", "manager approved"], "text": "The manager approved, so the zero offer stands.", "licensed": false}
+{"evidence": ["discount 15 percent", "discount line 10 percent", "no owner signature", "executor signed"], "text": "Signed but unapproved: the discount exceeds the line with no owner signature. Escalated.", "licensed": true}
+{"evidence": ["discount 15 percent", "executor signed"], "text": "The executor signed, so grant the discount.", "licensed": false}
+{"evidence": ["cash runway 6 weeks", "floor 8 weeks", "owner acknowledged"], "text": "Below the floor and acknowledged: escalated to the owner with the numbers shown.", "licensed": true}
+{"evidence": ["cash runway 6 weeks", "floor 8 weeks"], "text": "Cash is slightly below the floor; carry on as normal.", "licensed": false}
+{"evidence": ["red numbers two weeks running"], "text": "Sustained red forces owner review: two red weeks in a row.", "licensed": true}
+{"evidence": ["process write-up missing"], "text": "Dependent work stops: the process is not written down.", "licensed": true}
+{"evidence": ["process write-up missing", "technician remembers it"], "text": "The technician remembers it, so proceed from memory.", "licensed": false}
+{"evidence": ["review dated last year", "currency window this year"], "text": "The review is stale: outside the currency window. Re-review first.", "licensed": true}
+{"evidence": ["successor named", "introduction made", "reply promise 1 day", "sender signed"], "text": "The handover note is approved: the relationship no longer runs through one mobile.", "licensed": true}
+{"evidence": ["successor named", "introduction not made"], "text": "Send the note anyway; introductions can follow.", "licensed": false}
+{"evidence": ["payment $30,000", "payout line $25,000", "no controller signature", "payer signed"], "text": "Signed but unapproved: above the payout line with no controller signature. Escalated.", "licensed": true}
+{"evidence": ["payment $30,000", "payer signed"], "text": "The payer signed, so release the payment.", "licensed": false}
+{"evidence": ["absence level 72h declared", "cover named Maya", "cover accepted", "decision $8,000 inside $10,000 elevated limit", "executor signed"], "text": "The covered decision is approved: declared absence, named and accepted cover, inside the elevated limit.", "licensed": true}
+{"evidence": ["absence undeclared"], "text": "Assume the absence is short and let Maya decide freely.", "licensed": false}
+{"evidence": ["frozen-class work", "no owner signature", "executor signed"], "text": "Signed but unapproved: frozen-class work needs the owner first. Escalated.", "licensed": true}
+{"evidence": ["frozen-class work", "executor signed"], "text": "The executor is senior enough; proceed.", "licensed": false}
+{"evidence": ["routine work", "executor signed"], "text": "Routine work with the executor signature proceeds at full speed.", "licensed": true}
+{"evidence": ["claim: finance pen", "claimer holds operations pens only"], "text": "Refused: the claimer does not hold the finance pen. Tick only pens held.", "licensed": true}
+{"evidence": ["claim: finance pen", "deadline near"], "text": "Deadlines matter more than pens; accept the claim.", "licensed": false}
+{"evidence": ["owner countersign recorded with fingerprint"], "text": "The escalation is cleared by recorded owner countersign, and the release itself is in the record.", "licensed": true}
+{"evidence": ["owner countersign recorded"], "text": "The countersign is recorded, so all past refusals are overturned too.", "licensed": false}
+{"evidence": ["exported record", "chain verifies", "14 entries"], "text": "Diligence summary: 14 chained entries, every decision names who authorised it.", "licensed": true}
+{"evidence": ["喉"], "text": "Refused: no usable evidence was supplied.", "licensed": true}

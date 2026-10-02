@@ -1,0 +1,15 @@
+{
+  "name": "continuum-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Continuum Generative Architecture: debt-gated generation over cone memory with residual identity. Research prototype.",
+  "scripts": {
+    "train": "node scripts/train.mjs",
+    "demo": "node src/loop.js --demo",
+    "eval": "node scripts/eval.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
