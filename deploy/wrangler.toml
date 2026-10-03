@@ -1,0 +1,10 @@
+# Overwrite-deploy of the CGA research exhibit onto the "final-verify" slot.
+# Deploy: npx wrangler deploy --config deploy/wrangler.toml
+# No Durable Objects, no KV: static assets + two read-only endpoints.
+name = "final-verify"
+main = "worker.js"
+compatibility_date = "2026-10-02"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"

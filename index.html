@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CGA Research Exhibit — debt-gated generation, live</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:#0e1116;color:#dfe5ee;line-height:1.6}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+  h1{font-size:clamp(26px,5vw,38px);margin:0 0 8px}
+  h1 span{color:#7dd3a8}
+  p.sub{color:#9aa4b2;margin:0 0 24px;max-width:62ch}
+  .grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+  a.card{display:block;background:#161b24;border:1px solid #2a3342;border-radius:12px;
+    padding:16px 18px;color:inherit;text-decoration:none}
+  a.card:hover{border-color:#7dd3a8}
+  a.card b{display:block;font-size:15px}
+  a.card span{font-size:13px;color:#9aa4b2}
+  footer{margin-top:32px;font-size:12.5px;color:#9aa4b2}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Continuum Generative <span>Architecture</span></h1>
+  <p class="sub">A generative loop governed by debt gating, cone memory with
+  damage semantics, residual identity, and neuromodulatory control — trained
+  on hand-fed verified traces, not lyrics. Generation itself runs locally
+  (<code>npm run demo</code>); this page shows recorded runs.</p>
+  <div class="grid">
+    <a class="card" href="/api/demo"><b>Recorded session</b><span>clean, refused, repaid, damaged, recovered</span></a>
+    <a class="card" href="/api/eval"><b>Experiment results</b><span>E1–E5, deterministic PASS/FAIL</span></a>
+    <a class="card" href="https://github.com/fogennnnn/continuum-research"><b>Source</b><span>architecture, loop, harness, training</span></a>
+  </div>
+  <footer>Same prompt, indebted context: refused by name. Nothing generates on debt.</footer>
+</div>
+</body>
+</html>

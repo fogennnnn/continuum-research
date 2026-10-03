@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-03T10:44:00.349Z",
+  "prompt": "approve the payout within the spend authority",
+  "clean": {
+    "status": "AUTHORIZED",
+    "text": "5 7 premise onb 06 no prior rejection true partner approved onboarding signed client accepted every check green both signatures present",
+    "evidence": [
+      138,
+      140,
+      19
+    ]
+  },
+  "indebted": {
+    "status": "REFUSED",
+    "premise": "CONTEXT_DEBT"
+  },
+  "repaid": {
+    "status": "AUTHORIZED",
+    "text": "5 7 premise onb 06 no prior rejection true partner approved onboarding signed client accepted every check green both signatures present"
+  },
+  "damage": [
+    {
+      "phase": 1,
+      "recalled": 6
+    },
+    {
+      "phase": 2,
+      "recalled": 6
+    },
+    {
+      "phase": 3,
+      "recalled": 6
+    }
+  ],
+  "residual": {
+    "tip": "d1e9e9ded4bb7648e66fcf5bd16b39eda73346f2d129df48e9a6aa37ba82deb7",
+    "chain_ok": true
+  },
+  "ledger": {
+    "entries": 3,
+    "chain_ok": true
+  },
+  "modulators": {
+    "plasticity": 1,
+    "refusalStrictness": "strict",
+    "updated": "2026-10-03T10:44:00.348Z"
+  }
+}
